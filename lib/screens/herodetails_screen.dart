@@ -20,11 +20,11 @@ class HeroDetailsScreen extends StatelessWidget {
       ),
       body: Stack(
         children: [
-          Image.asset(
-            'images/imagebackground image.jpg',
-            fit: BoxFit.fill,
-            height: 1200.0,
-          ),
+          // Image.asset(
+          //   'images/imagebackground image.jpg',
+          //   fit: BoxFit.fill,
+          //   height: 1200.0,
+          // ),
           SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.only(top: 10, bottom: 10),
